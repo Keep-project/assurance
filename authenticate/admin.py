@@ -1,9 +1,9 @@
 from django.contrib import admin
 
-from .models import Voiture, Garage, Utilisateur
+from .models import Utilisateur
 
 # Register your models here.
 
 admin.site.register([
-    Voiture, Garage, Utilisateur
+    Utilisateur
 ])
